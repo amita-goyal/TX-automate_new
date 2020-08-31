@@ -7,7 +7,7 @@ pipeline {
       }
     }
 
-    stage('TX_WebTests') {
+    stage('TX_Automation') {
       parallel {
         stage('TX_WebTests') {
           steps {
